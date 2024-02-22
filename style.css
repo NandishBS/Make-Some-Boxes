@@ -1,0 +1,106 @@
+h1{
+    color: rgb(255, 3, 66);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer{
+    margin-top: 20px; 
+    text-align: center;  
+}
+
+#developer{
+    text-align: end;
+}
+
+#description{
+    margin-top: 20px;
+}
+
+button{
+    background-color: rgb(21, 122, 0);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    height: 30px;
+    width: 150px;
+}
+
+#box{
+    height: 660px;
+    width: 660px;
+    position: relative;
+    font-size: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.horizontallines{
+    height: 10px;
+    width: 95px;
+    background-color: rgb(206, 206, 206);
+    position: absolute;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.verticallines{
+    height: 95px;
+    width: 10px;
+    background-color: rgb(206, 206, 206);
+    position: absolute;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.red{
+    background-color: red ;
+}
+
+.green{
+    background-color: green;
+}
+
+.fill{
+    height: 105px;
+    width: 105px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 0;
+    font-size: 0px;
+    opacity: 10;
+}
+
+.redfill{
+    background-color: rgb(247, 156, 156) ;
+}
+
+.greenfill{
+    background-color: rgb(176, 255, 176);
+}
+
+#winner{
+    display: flex;
+    height: 120px;
+    background-color: rgba(19, 15, 15, 0.932);
+    font-size: 60px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    align-items: center;
+    border: 10px solid;
+    border-top-color: green;
+    border-bottom-color: red;
+    justify-content: center;
+    position: absolute;
+    z-index: 3 ;
+    width: 640px;
+    top: 256px;
+}
